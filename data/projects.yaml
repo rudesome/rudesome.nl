@@ -1,0 +1,12 @@
+- name: Hosting own (shadow) GIT repo for me and my collegues
+  link: git.kembit.nl
+  role: Creator
+  tools: Docker / (ci/)CD Gitlab pipeline
+  description: "GIT repository with some runners"
+- name: Wiki
+  link: wiki.parkhost.eu
+  role: Creator
+  tools: Markdown / Docker
+  description: "For me my wiki is my learning process, sometimes you need to write it down in your own words to understand it"
+
+

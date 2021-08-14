@@ -1,0 +1,16 @@
+- employer: "KEMBIT"
+  location: "Wijnandsrade"
+  role: "System Administrator / Developer"
+  start: "Aug 2018"
+  end: "Present"
+  details:
+    - Managing Windows servers and clients.
+    - Managing Azure resources and policies.
+    - Developing software to automate the business with PowerShell and Python.
+- employer: "Mondriaan"
+  location: "Heerlen / Maastricht"
+  role: "Onsite Support (Intern)"
+  start: "Aug 2009"
+  end: "Aug 2010"
+  details:
+    - Supporting customers on location, hands on site

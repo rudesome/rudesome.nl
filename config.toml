@@ -1,0 +1,37 @@
+theme = "awesome-identity"
+baseURL = "https://cv.parkhost.eu"
+title = "~ whoami"
+publishDir = "docs"
+disableKinds = ["taxonomy", "term"]
+
+## Profile Configurations
+[params.profile]
+  portrait = "/images/portrait.png"
+  firstname = "Ruud"
+  lastname = "Voorjans"
+  title = "Sys Admin, Software Engineer, DevOps Engineer"  
+  location = "Simpelveld"
+  bio = ""Hi my name is """
+
+[params.contacts]
+  email = "ruud.voorjans@parkhost.eu"
+  github = "parkhost"
+  gitlab = "parkhost"
+  linkedin = "rv-1337"
+  twitter = "unknown"
+
+[params.actions.resume]
+  name = "Resume"
+  url = "/resume"
+
+[params.actions.source]
+  name = "Site Source"
+  url = "https://github.com/parkhot/cv.parkhost.eu"
+
+## Footer Configurations
+[params.footer]
+  copyright = """<i class="fab fa-linux"></i> I use whatever i get in my hands <i class="fab fa-linux"></i>"""
+  poweredBy = false
+
+[markup.goldmark.renderer]
+unsafe= true
