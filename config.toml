@@ -22,7 +22,7 @@ disableKinds = ["taxonomy", "term"]
 
 [params.actions.resume]
   name = "Resume"
-  url = "/resume"
+  url = "/cv.parkhost.eu/resume"
 
 [params.actions.source]
   name = "Site Source"
