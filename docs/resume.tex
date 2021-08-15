@@ -1,0 +1,189 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% Awesome CV LaTeX Template for CV/Resume
+%
+% This template has been downloaded from:
+% https://github.com/posquit0/Awesome-CV
+%
+% Author:
+% Claud D. Park <posquit0.bj@gmail.com>
+% http://www.posquit0.com
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%
+
+
+%-------------------------------------------------------------------------------
+% CONFIGURATIONS
+%-------------------------------------------------------------------------------
+% A4 paper size by default, use 'letterpaper' for US letter
+\documentclass[11pt, letterpaper]{awesome-cv}
+
+% Configure page margins with geometry
+\geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
+
+% Specify the location of the included fonts
+\fontdir[fonts/]
+
+% Color for highlights
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+\colorlet{awesome}{awesome-red}
+% Uncomment if you would like to specify your own color
+% \definecolor{awesome}{HTML}{CA63A8}
+
+% Colors for text
+% Uncomment if you would like to specify your own color
+% \definecolor{darktext}{HTML}{414141}
+% \definecolor{text}{HTML}{333333}
+% \definecolor{graytext}{HTML}{5D5D5D}
+% \definecolor{lighttext}{HTML}{999999}
+
+% Set false if you don't want to highlight section with awesome color
+\setbool{acvSectionColorHighlight}{true}
+
+% If you would like to change the social information separator from a pipe (|) to something else
+\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
+
+
+%-------------------------------------------------------------------------------
+%	PERSONAL INFORMATION
+%	Comment any of the lines below if they are not required
+%-------------------------------------------------------------------------------
+% Available options: circle|rectangle,edge/noedge,left/right
+% \photo[rectangle,edge,right]{./examples/profile}
+\name{Ruud}{Voorjans}
+\position{Sys Admin{\enskip\cdotp\enskip}Software Engineer{\enskip\cdotp\enskip}DevOps Engineer}
+\address{Simpelveld}
+
+
+\email{ruud.voorjans@parkhost.eu}
+
+\github{parkhost}
+
+\gitlab{parkhost}
+
+\linkedin{rv-1337}
+
+\twitter{unknown}
+
+
+% \quote{``Be the change that you want to see in the world."}
+
+
+%-------------------------------------------------------------------------------
+\begin{document}
+
+% Print the header with above personal informations
+% Give optional argument to change alignment(C: center, L: left, R: right)
+\makecvheader[C]
+
+% Print the footer with 3 arguments(<left>, <center>, <right>)
+% Leave any of these blank if they are not needed
+\makecvfooter
+  {\today}
+  {Ruud Voorjans~~~·~~~Résumé}
+  {\thepage}
+
+\cvsection{Summary}
+\begin{cvparagraph}
+
+this is a summarize in index.md yeeah!
+
+
+\end{cvparagraph}
+
+\cvsection{Work Experience}
+\begin{cventries}
+
+
+  \cventry
+    {System Administrator / Developer}
+    {KEMBIT}
+    {Wijnandsrade}
+    {Aug 2018 - Present}
+    {
+      \begin{cvitems}
+        \item{Managing Windows servers and clients.}
+        \item{Managing Azure resources and policies.}
+        \item{Developing software to automate the business with PowerShell and Python.}
+      \end{cvitems}
+    }
+
+
+  \cventry
+    {Onsite Support (Intern)}
+    {Mondriaan}
+    {Heerlen / Maastricht}
+    {Aug 2009 - Aug 2010}
+    {
+      \begin{cvitems}
+        \item{Supporting customers on location, hands on site}
+      \end{cvitems}
+    }
+
+
+
+\end{cventries}
+
+\cvsection{Certifications}
+\begin{cvhonors}
+
+  \cvhonor
+    {ITIL Foundation Certificate in IT Service Management}
+    {Certification ID: 5.61768920506583e+06}
+    {EXIN}
+    {Feb 2016}
+
+  \cvhonor
+    {Cisco Certified Network Associate Routing and Switching}
+    {Certification ID: 427924169524DTDF}
+    {Cisco}
+    {Feb 2017}
+
+  \cvhonor
+    {Installing and Configuring Windows 10}
+    {Certification ID: NOID}
+    {Microsoft}
+    {Nov 2018}
+
+
+\end{cvhonors}
+
+\cvsection{Notable Projects}
+\begin{cventries}
+
+  \cventry
+    {Creator}
+    {Hosting own (shadow) GIT repo for me and my collegues}
+    {git.kembit.nl}
+    {Docker / (ci/)CD Gitlab pipeline}
+    {GIT repository with some runners}
+
+  \cventry
+    {Creator}
+    {Wiki}
+    {wiki.parkhost.eu}
+    {Markdown / Docker}
+    {For me my wiki is my learning process, sometimes you need to write it down in your own words to understand it}
+
+
+\end{cventries}
+
+\cvsection{Education}
+\begin{cventries}
+
+  \cventry
+    {MBO 4 ICT - SysteemBeheerder}
+    {Arcus College}
+    {Heerlen}
+    {2005 - 2010}
+    {
+    }
+
+
+\end{cventries}
+
+%-------------------------------------------------------------------------------
+\end{document}

@@ -11,7 +11,7 @@ disableKinds = ["taxonomy", "term"]
   lastname = "Voorjans"
   title = "Sys Admin, Software Engineer, DevOps Engineer"  
   location = "Simpelveld"
-  bio = ""Hi my name is """
+  bio = """Hi my name is"""
 
 [params.contacts]
   email = "ruud.voorjans@parkhost.eu"
@@ -35,3 +35,4 @@ disableKinds = ["taxonomy", "term"]
 
 [markup.goldmark.renderer]
 unsafe= true
+
