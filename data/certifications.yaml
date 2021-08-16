@@ -6,7 +6,19 @@
   id: 427924169524DTDF
   date: Feb 2017
   org: Cisco
-- name: Installing and Configuring Windows 10
-  id: NOID
-  date: Nov 2018
+- name: Information Security Foundation based on ISO IEC 27001
+  id: 6269146
+  date: May 2019
+  org: EXIN
+- name: MCSA Windows 10 Certified 2019
+  id: H070-9469
+  date: Nov 2019
+  org: Microsoft
+- name: M365 Modern Desktop Administrator Associate
+  id: H357-2019
+  date: Feb 2020
+  org: Microsoft
+- name: Azure Administrator Associate
+  id: 16560902
+  date: Aug 2020
   org: Microsoft

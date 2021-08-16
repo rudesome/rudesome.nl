@@ -4,9 +4,26 @@
   start: "Aug 2018"
   end: "Present"
   details:
-    - Managing Windows servers and clients.
+    - Managing Windows environments.
+    - Managing backup solutions (VEEAM)
+    - Created Techinal design of Applications cyclus with C4B
     - Managing Azure resources and policies.
     - Developing software to automate the business with PowerShell and Python.
+- employer: "Sitech Services"
+  location: "Beek (Chemelot)"
+  role: "Project Engineer"  
+  start: "Apr 2012"
+  end: "Nov 2014"
+  details:
+    - Instructing and helping rollout of new operating system and integration of Citrix
+    - 
+- employer: "Servicedesk Analyst"
+  location: "Beek (MAA)"
+  role: "Various IT Servicedesk task (incidents, changes) for large national companies and government"
+  start: "Aug 2010"
+  end: "Mar 2013"
+  details:
+    - Various IT Servicedesk task (incidents, changes) for large national companies and government
 - employer: "Mondriaan"
   location: "Heerlen / Maastricht"
   role: "Onsite Support (Intern)"
