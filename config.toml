@@ -9,16 +9,14 @@ disableKinds = ["taxonomy", "term"]
   portrait = "/images/portrait.png"
   firstname = "Ruud"
   lastname = "Voorjans"
-  title = "Sys Admin, Software Engineer, DevOps Engineer"  
+  title = "System Adminstrator, Software / DevOps Engineer"
   location = "Simpelveld"
-  bio = """Hi my name is"""
+  bio = """I am a experienced system administrator. In my day job, I develop automation frameworks in PowerShell and Python. Passionate about Software, Automation and Creating (customer) services."""
 
 [params.contacts]
   email = "ruud.voorjans@parkhost.eu"
   github = "parkhost"
-  gitlab = "parkhost"
-  linkedin = "rv-1337"
-  twitter = "unknown"
+  linkedin = "parkhost"
 
 [params.actions.resume]
   name = "Resume"
@@ -26,11 +24,11 @@ disableKinds = ["taxonomy", "term"]
 
 [params.actions.source]
   name = "Site Source"
-  url = "https://github.com/parkhot/cv.parkhost.eu"
+  url = "https://github.com/parkhost/cv.parkhost.eu"
 
 ## Footer Configurations
 [params.footer]
-  copyright = """<i class="fab fa-linux"></i> I use whatever i get in my hands <i class="fab fa-linux"></i>"""
+  copyright = """<i class="fab fa-linux"></i>I use 'Linux', btw<i class="fab fa-linux"></i>"""
   poweredBy = false
 
 [markup.goldmark.renderer]

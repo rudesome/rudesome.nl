@@ -1,12 +1,15 @@
-- name: Hosting own (shadow) GIT repo for me and my collegues
+- name: Hosting Gitlab for me and my collegues
   link: git.kembit.nl
   role: Creator
   tools: Docker / (ci/)CD Gitlab pipeline
-  description: "GIT repository with some runners"
-- name: Wiki
+  description: repository with ci/cd pipelines
+- name: Hosting wikijs instance
   link: wiki.parkhost.eu
   role: Creator
   tools: Markdown / Docker
-  description: "For me my wiki is my learning process, sometimes you need to write it down in your own words to understand it"
-
-
+  description: For me my wiki is my learning process, sometimes you need to write it down in your own words to understand it
+- name: Custom CVE databese
+  link: cve.parkhost.eu
+  role: Creator
+  tools: MongoDB, Nodejs, VUE, Docker
+  description: Created own Mongo database out of cve mitre json data. Used featherjs to manage the API and VUE on the front.

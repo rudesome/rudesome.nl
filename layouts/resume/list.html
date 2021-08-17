@@ -161,13 +161,13 @@
       </section>
 
       <section class="projects">
-        <h2 class="header">Notable Projects</h2><hr>
+        <h2 class="header">Projects</h2><hr>
 
         {{ range .Site.Data.projects }}
         <div class="experience">
           <div class="row">
             <div class="employer">{{ .name }}</div>
-            <div class="location">{{ .link | markdownify }}</div>
+	    <div class="location">{{ .link | markdownify }}</div>
           </div>
           <div class="row">
             <div class="role">{{ .role }}</div>

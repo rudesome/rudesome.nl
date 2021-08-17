@@ -4,23 +4,21 @@
   start: "Aug 2018"
   end: "Present"
   details:
-    - Managing complete IT environemnts.
-    - Managing backup solutions (VEEAM)
-    - Created Techinal design of Applications cyclus with C4B
-    - Managing Azure resources and policies.
-    - Developing software to automate the business with PowerShell and Python.
+    - Managing complete IT environemnts; onpremise, Azure or hybrid.
+    - Created Techinal design of Applications cyclus with C4B.
+    - Developing modules (PowerShell, Python) in Ansible to automate the business.
 - employer: "TRUE"
   location: "Beek (MAA)"
-  role: "Senior Servicedesk"  
+  role: "Servicedesk / Sys Administrator"
   start: "Aug 2017"
   end: "Jul 2018"
   details:
-    - Highly skilled servicedesk
-    - Managed 100+ website and different kind of GNU/environments (Debian and FreeBSD)
-    - High level Networking / Firewall (Juniper / PfSense)
+    - Indepth Incident analyzing
+    - Managed Linux web hosting environment
+    - Managed Networking/Firewall (Juniper / PfSense)
 - employer: "MeanderGroep"
   location: "Landgraaf"
-  role: "System/Network Administrator"  
+  role: "System/Network Administrator"
   start: "Jul 2015"
   end: "Aug 2017"
   details:
@@ -37,7 +35,7 @@
     - Skilled Servicedesk at Maastricht University Medical Centre (MUMC)
 - employer: "Servicedesk Analyst"
   location: "Beek (MAA)"
-  role: "Various IT Servicedesk task (incidents, changes) for large national companies and government"
+  role: "Service Desk" 
   start: "Aug 2010"
   end: "Mar 2013"
   details:
