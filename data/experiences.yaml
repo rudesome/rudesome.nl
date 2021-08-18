@@ -4,9 +4,9 @@
   start: "Aug 2018"
   end: "Present"
   details:
-    - Managing complete IT environemnts; onpremise, Azure or hybrid.
-    - Created Techinal design of Applications cyclus with C4B.
-    - Developing modules (PowerShell, Python) in Ansible to automate the business.
+    - Managing complete IT environemnts; onpremise and cloud (Azure).
+    - Created Technical design; Continuous application lifecycle with C4B.
+    - Developing mOdules (PowerShell, Python) in Ansible to automate the business.
 - employer: "TRUE"
   location: "Beek (MAA)"
   role: "Servicedesk / Sys Administrator"
@@ -14,7 +14,7 @@
   end: "Jul 2018"
   details:
     - Indepth Incident analyzing
-    - Managed Linux web hosting environment
+    - Managed Debian and FreeBSD web hosting environment
     - Managed Networking/Firewall (Juniper / PfSense)
 - employer: "MeanderGroep"
   location: "Landgraaf"
@@ -30,7 +30,7 @@
   start: "Apr 2013"
   end: "Nov 2015"
   details:
-    - Several projects at different Companies 
+    - Several projects at different companies 
     - Mostly migration projects to newer Operating systems / Cloud
     - Skilled Servicedesk at Maastricht University Medical Centre (MUMC)
 - employer: "Servicedesk Analyst"

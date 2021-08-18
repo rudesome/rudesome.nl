@@ -28,7 +28,7 @@ disableKinds = ["taxonomy", "term"]
 
 ## Footer Configurations
 [params.footer]
-  copyright = """<i class="fab fa-linux"></i>I use 'Linux', btw<i class="fab fa-linux"></i>"""
+  copyright = """<i class="fab fa-linux"></i>Ruud Voorjans<i class="fab fa-linux"></i>"""
   poweredBy = false
 
 [markup.goldmark.renderer]

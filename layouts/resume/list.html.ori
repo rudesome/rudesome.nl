@@ -33,7 +33,7 @@
   <body>
     <div class="wrap resume">
       <section class="intro">
-        <a href="/cv.parkhost.eu">
+        <a href="/">
           <h1 class="name">{{ .Site.Params.profile.firstname }} <b>{{ .Site.Params.profile.lastname }}</b></h1>
         </a>
         <p class="title">{{ .Site.Params.profile.title }}</p>
@@ -108,11 +108,11 @@
               <a href="/cv.parkhost.eu/resume.pdf"><i class="fa fa-file-pdf"></i></a>
               <span class="message">Download PDF</span>
             </div>
-           <!-- <div class="tooltip">
+            <div class="tooltip">
               {{ $latex := resources.Get "resume.tex" | resources.ExecuteAsTemplate "resume.tex" . }}
               <a href="{{ $latex.RelPermalink }}"><i class="fa fa-code"></i></a>
               <span class="message">Download LaTex</span>
-	   </div> -->
+	      </div>
           </h2>
         </div>
         <hr><br/>
