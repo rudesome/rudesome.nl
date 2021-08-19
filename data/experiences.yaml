@@ -4,25 +4,25 @@
   start: "Aug 2018"
   end: "Present"
   details:
-    - Managing complete IT environemnts; onpremise and cloud (Azure).
-    - Created Technical design; Continuous application lifecycle with C4B.
-    - Developing mOdules (PowerShell, Python) in Ansible to automate the business.
+    - Managing complete IT environments; onpremise and cloud (Azure).
+    - Created technical design; Continuous application lifecycle with C4B.
+    - Developing modules (PowerShell / Python) in Ansible to automate the business.
 - employer: "TRUE"
   location: "Beek (MAA)"
-  role: "Servicedesk / Sys Administrator"
+  role: "Servicedesk / System Administrator"
   start: "Aug 2017"
   end: "Jul 2018"
   details:
-    - Indepth Incident analyzing
-    - Managed Debian and FreeBSD web hosting environment
-    - Managed Networking/Firewall (Juniper / PfSense)
+    - Indepth incident analyzing
+    - Managed Debian and FreeBSD web hosting environments
+    - Managed Networking/Firewall (Juniper / PfSense / Fortinet)
 - employer: "MeanderGroep"
   location: "Landgraaf"
   role: "System/Network Administrator"
   start: "Jul 2015"
   end: "Aug 2017"
   details:
-    - System Administrator (Microsft)
+    - System Administrator (Microsoft)
     - Network Engineer (Cisco)
 - employer: "Data4"
   location: "Beek (MAA)"
@@ -39,4 +39,4 @@
   start: "Aug 2010"
   end: "Mar 2013"
   details:
-    - Various IT Servicedesk task (incidents, changes) for large national companies and government
+    - Various IT Servicedesk tasks (incidents, changes) for large national companies and government
