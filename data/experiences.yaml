@@ -9,11 +9,12 @@
     - Developing modules (PowerShell / Python) in Ansible to automate the business.
 - employer: "TRUE"
   location: "Beek (MAA)"
+
   role: "Servicedesk / System Administrator"
   start: "Aug 2017"
   end: "Jul 2018"
   details:
-    - Indepth incident analyzing
+    - Managed onpremise Microsoft environment
     - Managed Debian and FreeBSD web hosting environments
     - Managed Networking/Firewall (Juniper / PfSense / Fortinet)
 - employer: "MeanderGroep"
