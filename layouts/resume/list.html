@@ -167,7 +167,7 @@
         <div class="experience">
           <div class="row">
             <div class="employer">{{ .name }}</div>
-	    <div class="location">{{ .link | markdownify }}</div>
+						<div class="location"><a href="https://{{ .link | markdownify }}"> {{ .link | markdownify }}</a></div>
           </div>
           <div class="row">
             <div class="role">{{ .role }}</div>
