@@ -11,7 +11,9 @@ disableKinds = ["taxonomy", "term"]
   lastname = "Voorjans"
   title = "System Adminstrator, Software / DevOps Engineer"
   location = "Simpelveld"
-  bio = """I am a experienced system administrator. In my day job, I develop automation frameworks in PowerShell and Python. Passionate about Software, Automation and Creating (customer) services."""
+  bio = """I'm a experienced system administrator. In my day job, I develop automation frameworks in PowerShell and Python, solving incidents and implement changes.
+	At night am mainly in a terminal; writing, coding, reading, learning.
+	Passionate about Software, Automation and Creating services."""
 
 [params.contacts]
   email = "ruud.voorjans@parkhost.eu"
