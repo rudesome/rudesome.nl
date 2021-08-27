@@ -2,7 +2,7 @@
   link: git.kembit.nl
   role: Creator
   tools: Docker
-  description: Self hosted GIT Repository for me and my collegues
+  description: Self hosted GIT Repository for me and my collegues.
 - name: Hosting WIKIjs instance
   link: wiki.parkhost.eu
   role: Creator
@@ -17,6 +17,4 @@
   link: github.com/ParkHost/Script-for-Script 
   role: Creator
   tools: Powershell
-  description: Several mini projects, to help secure windows.
-    - Monitor the eventlog if any changes are made in schedule tasks, if so; it disables the task and gets the allowed arguments, if they match the task will be enabled again.
-    - Application check which hooks into the Custom CVE API project and checks all your installed application with version (WIP).
+  description: (WIP) Script and a Service, to help secure windows.
