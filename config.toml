@@ -1,6 +1,6 @@
 theme = "awesome-identity"
 baseURL = "https://parkhost.eu"
-title = "~ whoami"
+title = "➜  ~ whoami"
 publishDir = "docs"
 disableKinds = ["taxonomy", "term"]
 
@@ -9,11 +9,14 @@ disableKinds = ["taxonomy", "term"]
   portrait = "/images/portrait.png"
   firstname = "Ruud"
   lastname = "Voorjans"
-  title = "System Adminstrator, Software / DevOps Engineer"
+  title = "Software / DevOps Engineer"
   location = "Simpelveld"
-  bio = """I'm a experienced system administrator. In my day job, I develop automation frameworks in PowerShell and Python, solving incidents and implement changes.
-	At night am mainly in a terminal; writing, coding, reading, learning.
-	Passionate about Software, Automation and Creating services."""
+  bio = """
+  I am a DevOps engineer with 10+ years of sysadmin experience. <br> 
+In my day job, I automate the business with custom developed software,
+and using techniques like Ansible, Docker and Kubernetes <br> <br>
+At night am mainly "z-shelling" in the terminal; writing, coding, reading, deploying and learning. <br>
+Passionate about Programming, Open Source and (good) IT Design."""
 
 [params.contacts]
   email = "ruud.voorjans@parkhost.eu"

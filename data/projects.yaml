@@ -1,20 +1,25 @@
-- name: Hosting Gitlab instance
-  link: git.kembit.nl
-  role: Creator
-  tools: Docker
-  description: Self hosted GIT Repository for me and my collegues.
-- name: Hosting WIKIjs instance
+- name: Hosting/Creating blog / wiki(.js) 
   link: wiki.parkhost.eu
   role: Creator
-  tools: Markdown / Docker
-  description: Documenting info, tips and tricks of software which I came across along the way.
+  tools: Markdown / Docker / Kubernetes
+  description: Notes/documentation of things that interests me.
 - name: Custom CVE API
   link: cve.parkhost.eu
   role: Creator
-  tools: Javascript, MongoDB, Docker
-  description: Mongo database out of CVE mitre json repo. FeatherJS as REST API and VUE in front.
+  tools: Node.js / TypeScript / MongoDB / Docker
+  description: Used Mongodb to store CVE's in json, custom indexing for rapid lookups. FeatherJS as custom RESTapi and VUE.js in front.
+- name: Maintaining -Azure Kubernetes Service- cluster
+  link: wikitest.parkhost.eu
+  role: Creator
+  tools: Terraform / ArgoCD / Azure DevOps / k8s
+  description: Maintaining my "own" aks cluster with principals as IaC , GitOps, Automation and Design
+- name: Kubernetes and Windows
+  link: https://wiki.parkhost.eu/en/kubernetes
+  role: Creator
+  tools: Powershell / Bash
+  description: Mixed OS Windows Node on a kubeadm bootstrapt cluster with containerd as CRI and flannel as CNI.
 - name: Script for a Script
   link: github.com/ParkHost/Script-for-Script 
   role: Creator
   tools: Powershell
-  description: (WIP) Script and a Service, to help secure windows.
+  description: Script and a Service, to help secure windows.

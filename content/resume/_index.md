@@ -1,4 +1,10 @@
 ---
 location: "index.md location"
 ---
-More than 10 years System Administrator. Experience in automating with Ansible and writing custom modules in PoweShell / Python. Passionate about Programming, Open Source and DevOps.
+More than 10 years of sysadmin experience in different environments and operating systems. <br>
+
+Experience in maintaining (micro)services in Kubernetes and Docker with methods/principals as IaC, CI/CD, GitOps. <br>
+
+Developing (automation) software in scrum/agile way. <br>
+
+

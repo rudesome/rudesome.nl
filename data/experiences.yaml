@@ -1,21 +1,32 @@
 - employer: "KEMBIT"
   location: "Wijnandsrade"
-  role: "System Administrator / Developer"
-  start: "Aug 2018"
+  role: "DevOps/Software engineer"
+  start: "Jan 2022"
   end: "Present"
   details:
-    - Managing complete IT environments; onpremise and cloud (Azure).
-    - Created technical design; Continuous application lifecycle with C4B.
-    - Developing modules (PowerShell / Python) in Ansible to automate the business.
+    - Managing services in Docker containers and Kubernetes Clusters.
+    - Automating IT tasks as an MSP (customer independant).
+    - Synchronizing data between information systems.
+    - Creating and connecting the "dots"
+- employer: "KEMBIT"
+  location: "Wijnandsrade"
+  role: "System Administrator"
+  start: "Aug 2018"
+  end: "Dec 2021"
+  details:
+    - Maintained IT (server) environments; onpremise and cloud (Azure).
+    - Investigate and solving problems within different (customer) environments.
+    - Created technical design; Continuous application integration/deployment with C4B.
+    - Applying (complex) changes.
+    - Purpose several improvements to give the customer a better experience
 - employer: "TRUE"
   location: "Beek (MAA)"
-
   role: "Servicedesk / System Administrator"
   start: "Aug 2017"
   end: "Jul 2018"
   details:
     - Managed onpremise Microsoft environment
-    - Managed Debian and FreeBSD web hosting environments
+    - Maintained Debian and FreeBSD web hosting environments
     - Managed Networking/Firewall (Juniper / PfSense / Fortinet)
 - employer: "MeanderGroep"
   location: "Landgraaf"
@@ -40,4 +51,4 @@
   start: "Aug 2010"
   end: "Mar 2013"
   details:
-    - Various IT Servicedesk tasks (incidents, changes) for large national companies and government
+    - Various IT Servicedesk tasks (incidents, changes) at large national companies and government
