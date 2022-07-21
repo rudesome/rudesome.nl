@@ -12,9 +12,9 @@
   link: wikitest.parkhost.eu
   role: Creator
   tools: Terraform / ArgoCD / Azure DevOps / k8s
-  description: Maintaining my private aks cluster with principals as IaC , GitOps, CI/CD and Automation.
+  description: Maintaining my aks cluster with principals as IaC, GitOps, CI/CD and Automation.
 - name: Kubernetes and Windows
-  link: https://github.com/Parkhost/Kubernetes_on_Windows
+  link: https://github.com/Parkhost/KubernetesonWindows
   role: Creator
   tools: Powershell / Bash
   description: Mixed OS Windows Node on a kubeadm bootstrapt cluster with containerd as CRI and flannel as CNI.
