@@ -3,15 +3,15 @@
   width: 92%;
   height: auto;
   box-sizing: border-box;
-  color: #4f515d;
   font-size: 0.8rem;
+  color: #8f919d;
   text-align: center;
   text-transform: uppercase;
   margin: 0 auto;
   padding-top: 18px;
   padding-bottom: 18px;
   border: 0;
-  border-top: 1px solid #eee;
+  border-top: 1px solid #222;
 
   @media only screen and (min-width: 1024px) {
     width: 1024px;
@@ -21,6 +21,16 @@
     margin-bottom: 0.4em;
   }
   a:hover {
+    color: #8f919d;
+  }
+}
+@media screen and (prefers-color-theme: light) {
+  .footer {
     color: #4f515d;
+    border-top: 1px solid #eee;
+
+    a:hover {
+      color: #4f515d;
+    }
   }
 }
