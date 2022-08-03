@@ -19,9 +19,9 @@ At night am mainly "z-shelling" in the terminal; writing, coding, reading, deplo
 Passionate about Programming, Open Source and (good) IT Design."""
 
 [params.contacts]
-  email = "ruud.voorjans@parkhost.eu"
-  github = "parkhost"
-  linkedin = "parkhost"
+  email = "ruud.voorjans@rudesome.nl"
+  github = "rudesome"
+  linkedin = "rudesome"
 
 [params.actions.resume]
   name = "Resume"
@@ -29,7 +29,7 @@ Passionate about Programming, Open Source and (good) IT Design."""
 
 [params.actions.source]
   name = "Site Source"
-  url = "https://github.com/parkhost/cv.parkhost.eu"
+  url = "https://github.com/rudesome/cv.parkhost.eu"
 
 ## Footer Configurations
 [params.footer]

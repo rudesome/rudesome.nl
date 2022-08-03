@@ -14,12 +14,12 @@
   tools: Terraform / ArgoCD / Azure DevOps / k8s
   description: Maintaining my aks cluster with principals as IaC, GitOps, CI/CD and Automation.
 - name: Kubernetes and Windows
-  link: https://github.com/Parkhost/KubernetesonWindows
+  link: github.com/rudesome/KubernetesonWindows
   role: Creator
   tools: Powershell / Bash
   description: Mixed OS Windows Node on a kubeadm bootstrapt cluster with containerd as CRI and flannel as CNI.
 - name: Script for a Script
-  link: github.com/ParkHost/Script-for-Script 
+  link: github.com/rudesome/Script-for-Script 
   role: Creator
   tools: Powershell
   description: Script and a Service, to help secure windows.
