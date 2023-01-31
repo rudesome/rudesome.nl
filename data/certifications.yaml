@@ -26,7 +26,7 @@
   id: 16560902
   date: Oct 2021
   org: Microsoft
-  #- name: Certified Kubernetes Administrator
-  #id: 1111
-  #date: Dec 2022
-  #org: CNCF
+- name: Certified Kubernetes Administrator
+  id: LF-pok4t37yw6
+  date: Jan 2023
+  org: CNCF
