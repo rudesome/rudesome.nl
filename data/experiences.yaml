@@ -1,8 +1,15 @@
+- employer: "AZL"
+  location: "Heerlen"
+  role: "DevOps Engineer"
+  start: "Feb 2023"
+  end: "Present"
+  details:
+    - Details will be added later.
 - employer: "KEMBIT"
   location: "Wijnandsrade"
   role: "DevOps/Software engineer"
   start: "Jan 2022"
-  end: "Present"
+  end: "Jan 2023"
   details:
     - Managing services in Docker containers and Kubernetes Clusters.
     - Automating IT tasks as an MSP (customer independant).
