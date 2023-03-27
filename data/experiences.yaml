@@ -1,13 +1,15 @@
 - employer: "AZL"
   location: "Heerlen"
-  role: "DevOps Engineer"
+  role: "Cloud / DevOps Engineer"
   start: "Feb 2023"
   end: "Present"
   details:
-    - Details will be added later.
+    - Building / managing resources in Azure with Terraform
+    - Setting up Azure CI/CD pipelines
+    - Deploying / maintaining k8s resources with HELM
 - employer: "KEMBIT"
   location: "Wijnandsrade"
-  role: "DevOps/Software engineer"
+  role: "DevOps engineer"
   start: "Jan 2022"
   end: "Jan 2023"
   details:
