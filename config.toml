@@ -9,14 +9,14 @@ disableKinds = ["taxonomy", "term"]
   portrait = "/images/portrait.png"
   firstname = "Ruud"
   lastname = "Voorjans"
-  title = "Software / DevOps Engineer"
+  title = "Cloud / DevOps Engineer"
   location = "Simpelveld"
   bio = """
   I am a DevOps engineer with 10+ years of sysadmin experience. <br> 
-In my day job, I automate the business with custom developed software,
-and using techniques like Ansible, Docker and Kubernetes <br> <br>
+In my day job, I have experience in IaC, CI/CD and automation,
+am using tools like Terraform, Azure Pipeline, Kubernetes, Ansible <br> <br>
 At night am mainly "z-shelling" in the terminal; writing, coding, reading, deploying and learning. <br>
-Passionate about Programming, Open Source and (good) IT Design."""
+Passionate about Programming and Open Source."""
 
 [params.contacts]
   email = "ruud.voorjans@rudesome.nl"
@@ -29,11 +29,11 @@ Passionate about Programming, Open Source and (good) IT Design."""
 
 [params.actions.source]
   name = "Site Source"
-  url = "https://github.com/rudesome/cv.parkhost.eu"
+  url = "https://github.com/rudesome/rudesome.nl"
 
 ## Footer Configurations
 [params.footer]
-  copyright = """<i class="fab fa-linux"></i> *Ruud Voorjans* <i class="fab fa-linux"></i>"""
+  copyright = """<i class="fab fa-linux"></i> rudesome <i class="fab fa-linux"></i>"""
   poweredBy = false
 
 [markup.goldmark.renderer]

@@ -8,10 +8,10 @@
   role: Creator
   tools: Node.js / TypeScript / MongoDB / Docker
   description: Used Mongodb to store CVE's in json, custom indexing for rapid lookups. FeatherJS as custom RESTapi and VUE.js in front.
-- name: Maintaining -Azure Kubernetes Service- cluster
+- name: Maintaining -Azure Kubernetes Service- cluster (Offline)
   link: wikitest.parkhost.eu
   role: Creator
-  tools: Terraform / ArgoCD / Azure DevOps / k8s
+  tools: Terraform / ArgoCD / Azure DevOps / kubernetes
   description: Maintaining my aks cluster with principals as IaC, GitOps, CI/CD and Automation.
 - name: Kubernetes and Windows
   link: github.com/rudesome/KubernetesonWindows
