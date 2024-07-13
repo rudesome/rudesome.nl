@@ -10,6 +10,7 @@ resume: docs/resume.tex
 	mkdir -p resume/build
 	cd resume && xelatex -output-directory ./build ../$<
 	mv resume/build/resume.pdf docs/resume.pdf
+	hugo
 
 clean:
 	rm -rf docs resume/build
