@@ -4,9 +4,10 @@
   start: "Feb 2023"
   end: "Present"
   details:
-    - Building / managing resources in Azure with Terraform
-    - Setting up Azure CI/CD pipelines
-    - Deploying / maintaining k8s resources with HELM
+    - Designed and builded an AKS cluster which complies with compliancy and security of a financial company
+    - Developed a "DevOps Platform" for multiple teams with Terraform and Azure pipelines.
+    - Maintaining event-driven landscape with products like eventhub, servicebus and kafka.
+    - Developed a RBAC model in Azure with terraform to provide a high security access standard.
 - employer: "KEMBIT"
   location: "Wijnandsrade"
   role: "DevOps engineer"
