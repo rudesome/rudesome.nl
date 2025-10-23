@@ -1,8 +1,14 @@
+- employer: "Zuyderland"
+  location: "Sittard"
+  role: "Cloud / DevOps Engineer"
+  start: "Aug 2025"
+  end: "Present"
+  details:
 - employer: "AZL"
   location: "Heerlen"
   role: "Cloud / DevOps Engineer"
   start: "Feb 2023"
-  end: "Present"
+  end: "July 2025"
   details:
     - Designed and builded an AKS cluster which complies with compliancy and security of a financial company
     - Developed a "DevOps Platform" for multiple teams with Terraform and Azure pipelines.
