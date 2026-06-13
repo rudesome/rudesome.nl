@@ -45,7 +45,7 @@
       top: 100%;
       left: 50%;
       margin-left: -5px;
-      margin-width: 5px;
+      border-width: 5px;
       border-style: solid;
       border-color: #3d3d3d transparent transparent transparent;
     }
@@ -60,7 +60,7 @@
     color: rgb(182,38,44);
   }
 
-  // This is a dumb solution, tbh
+  // Also highlight the first letter when the header is split into left/right.
   .header .left:first-letter {
     color: rgb(182,38,44);
   }

@@ -1,10 +1,9 @@
 ---
 location: "index.md location"
 ---
-More than 10 years of sysadmin experience in different environments and operating systems. <br>
+More than 10 years of sysadmin experience across different environments and operating systems. <br>
 
-Experience in maintaining (micro)services in Kubernetes and Docker with methods/principals as IaC, CI/CD, GitOps. <br>
+Experienced in maintaining (micro)services in Kubernetes and Docker using principles such as IaC, CI/CD and GitOps. <br>
 
-Developing (automation) software in scrum/agile way. <br>
-
+Develops (automation) software in a scrum/agile way. <br>
 

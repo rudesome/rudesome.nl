@@ -12,11 +12,11 @@ disableKinds = ["taxonomy", "term"]
   title = "Cloud / DevOps Engineer"
   location = "Simpelveld"
   bio = """
-  I am a DevOps engineer with 10+ years of sysadmin experience. <br> 
-In my day job, I have experience in IaC, CI/CD and automation,
-am using tools like Terraform, Azure Pipeline, Kubernetes, Ansible <br> <br>
-At night am mainly "z-shelling" in the terminal; writing, coding, reading, deploying and learning. <br>
-Passionate about Programming and Open Source."""
+  Cloud / DevOps engineer with 10+ years of experience, grown from sysadmin into building and automating cloud platforms. <br>
+By day I design and run cloud-native infrastructure on Azure and Kubernetes,
+turning manual toil into IaC, CI/CD and GitOps with tools like Terraform, Bicep, Ansible and Argo CD. <br> <br>
+By night you will find me "z-shelling" in the terminal: tinkering in my homelab, automating the boring bits and learning the next thing. <br>
+Happiest when everything is reproducible, version-controlled and just a <code>git push</code> away. Passionate about open source."""
 
 [params.contacts]
   email = "ruud.voorjans@rudesome.nl"
