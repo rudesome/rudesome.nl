@@ -4,44 +4,42 @@
   start: "Aug 2025"
   end: "Present"
   details:
-    - Designed Azure Local architectures using Rack-Aware Clustering to meet business continuity and availability requirements.
-    - Designed and implemented Azure Kubernetes Service (AKS) clusters integrated with Argo CD for GitOps-based deployments.
-    - Designed and implemented Ansible automation with AWX running on Kubernetes.
-    - Designed and implemented scalable CI/CD pipeline agents using KEDA.
-    - Contributed to the transformation from traditional operations to DevOps by adopting cloud-native technologies and reducing VM dependency to maximize cloud platform benefits.
-    - Onboarded VMware virtual machines to Azure Arc, enabling centralized governance and management.
-    - Managed and maintained Azure Local clusters using Infrastructure as Code (Bicep).
+    - Architected highly available Azure Local clusters with Rack-Aware Clustering for business continuity.
+    - Built GitOps-driven AKS clusters with Argo CD for automated, reproducible deployments.
+    - Automated configuration management with Ansible and AWX on Kubernetes.
+    - Delivered auto-scaling CI/CD pipeline agents using KEDA.
+    - Drove the shift from traditional operations to cloud-native DevOps, cutting VM dependency to maximize platform value.
+    - Onboarded VMware workloads to Azure Arc for centralized governance.
+    - Managed Azure Local clusters as code with Bicep.
 - employer: "AZL"
   location: "Heerlen"
   role: "Cloud / DevOps Engineer"
   start: "Feb 2023"
   end: "July 2025"
   details:
-    - Designed and built an AKS cluster that complies with the compliance and security requirements of a financial company.
-    - Developed a "DevOps Platform" for multiple teams with Terraform and Azure Pipelines.
-    - Maintained an event-driven landscape with products like Event Hubs, Service Bus and Kafka.
-    - Developed an RBAC model in Azure with Terraform to provide a high security access standard.
+    - Built an AKS cluster meeting the strict compliance and security standards of a financial company.
+    - Developed a self-service "DevOps Platform" for multiple teams with Terraform and Azure Pipelines.
+    - Operated an event-driven landscape on Event Hubs, Service Bus and Kafka.
+    - Designed an Azure RBAC model in Terraform for a high security access standard.
 - employer: "KEMBIT"
   location: "Wijnandsrade"
   role: "DevOps Engineer"
   start: "Jan 2022"
   end: "Jan 2023"
   details:
-    - Managed services in Docker containers and Kubernetes clusters.
-    - Automated IT tasks as an MSP (customer independent).
-    - Synchronized data between information systems.
-    - Connected the "dots" between systems and teams.
+    - Ran containerized services across Docker and Kubernetes clusters.
+    - Automated IT operations across multiple clients as an MSP.
+    - Built integrations to synchronize data between information systems.
 - employer: "KEMBIT"
   location: "Wijnandsrade"
   role: "System Administrator"
   start: "Aug 2018"
   end: "Dec 2021"
   details:
-    - Maintained IT (server) environments, both on-premise and cloud (Azure).
-    - Investigated and solved problems within different (customer) environments.
-    - Created technical designs for continuous application integration/deployment with C4B.
-    - Applied (complex) changes.
-    - Proposed various improvements to make the company more efficient.
+    - Maintained on-premise and cloud (Azure) server environments.
+    - Troubleshot and resolved issues across diverse customer environments.
+    - Designed and implemented CI/CD for application deployment with C4B.
+    - Planned and applied complex changes, and proposed efficiency improvements.
 - employer: "TRUE"
   location: "Beek (MAA)"
   role: "Service Desk / System Administrator"
@@ -49,29 +47,28 @@
   end: "Jul 2018"
   details:
     - Managed on-premise Microsoft environments.
-    - Maintained Debian and FreeBSD web hosting environments.
-    - Managed networking/firewalls (Juniper / pfSense / Fortinet).
+    - Maintained Debian and FreeBSD web hosting platforms.
+    - Administered networking and firewalls (Juniper / pfSense / Fortinet).
 - employer: "MeanderGroep"
   location: "Landgraaf"
   role: "System/Network Administrator"
   start: "Jul 2015"
   end: "Aug 2017"
   details:
-    - System Administrator (Microsoft).
-    - Network Engineer (Cisco).
+    - Administered Microsoft server environments.
+    - Engineered and maintained Cisco networks.
 - employer: "Data4"
   location: "Beek (MAA)"
   role: "Project Engineer"
   start: "Apr 2013"
   end: "Nov 2015"
   details:
-    - Several projects at different companies.
-    - Mostly migration projects to newer operating systems / cloud.
-    - Service desk support at Maastricht University Medical Centre (MUMC).
+    - Delivered migration projects to newer operating systems and cloud across multiple companies.
+    - Provided service desk support at Maastricht University Medical Centre (MUMC).
 - employer: "GETRONICS / KPN"
   location: "Beek (MAA)"
   role: "Service Desk"
   start: "Aug 2010"
   end: "Mar 2013"
   details:
-    - Various IT service desk tasks (incidents, changes) at large national companies and government.
+    - Handled IT service desk operations (incidents, changes) for large national and government organizations.
