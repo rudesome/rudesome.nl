@@ -679,7 +679,9 @@
 }{%
   \end{itemize}
   \end{justify}
-  \vspace{-4.0mm}
+  % The original template had \vspace{-4.0mm} here. With newer LaTeX kernels
+  % (TeX Live 2024+) that negative space is applied inside the tabular cell of
+  % \cventry, so the next entry is drawn on top of the last bullet. Removed.
 }
 
 

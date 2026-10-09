@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+{{ partial "opengraph.html" . }}
+{{ with .Site.Params.meta.description }}
+    <meta name="description" content="{{ . }}" />
+{{ end }}
+{{ with .Site.Params.meta.keywords }}
+    <meta name="keywords" content="{{ . }}" />
+{{ end }}
+    <base href="{{ .Site.BaseURL }}">
+    <title>{{ .Site.Title }}</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Jura:400,700">
+
+{{ $options := (dict "targetPath" "css/style.css" "outputStyle" "compressed") }}
+{{ $style := resources.Get "sass/main.scss" | toCSS $options | fingerprint }}
+    <link rel="stylesheet" href="{{ $style.RelPermalink }}">
+  </head>
+  <body>
+    <div class="wrap">
+{{ partial "profile.html" . }}
+{{ partial "contacts.html" . }}
+{{ partial "actions.html" . }}
+    </div>
+{{ partial "footer.html" . }}
+  </body>
+</html>

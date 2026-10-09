@@ -8,19 +8,19 @@
     - Built GitOps-driven AKS clusters with Argo CD for automated, reproducible deployments.
     - Automated configuration management with Ansible and AWX on Kubernetes.
     - Delivered auto-scaling CI/CD pipeline agents using KEDA.
-    - Drove the shift from traditional operations to cloud-native DevOps, cutting VM dependency to maximize platform value.
+    - Drove the shift from traditional operations to cloud-native DevOps, reducing reliance on VMs in favor of managed platform services.
     - Onboarded VMware workloads to Azure Arc for centralized governance.
     - Managed Azure Local clusters as code with Bicep.
 - employer: "AZL"
   location: "Heerlen"
   role: "Cloud / DevOps Engineer"
   start: "Feb 2023"
-  end: "July 2025"
+  end: "Jul 2025"
   details:
     - Built an AKS cluster meeting the strict compliance and security standards of a financial company.
-    - Developed a self-service "DevOps Platform" for multiple teams with Terraform and Azure Pipelines.
+    - Developed a self-service “DevOps Platform” for multiple teams with Terraform and Azure Pipelines.
     - Operated an event-driven landscape on Event Hubs, Service Bus and Kafka.
-    - Designed an Azure RBAC model in Terraform for a high security access standard.
+    - Designed an Azure RBAC model in Terraform to meet high-security access requirements.
 - employer: "KEMBIT"
   location: "Wijnandsrade"
   role: "DevOps Engineer"
@@ -36,22 +36,22 @@
   start: "Aug 2018"
   end: "Dec 2021"
   details:
-    - Maintained on-premise and cloud (Azure) server environments.
-    - Troubleshot and resolved issues across diverse customer environments.
-    - Designed and implemented CI/CD for application deployment with C4B.
-    - Planned and applied complex changes, and proposed efficiency improvements.
+    - Maintained on-premises and cloud (Azure) server environments.
+    - Diagnosed and resolved incidents across diverse customer environments.
+    - Designed and implemented CI/CD for application deployment with Chocolatey for Business (C4B).
+    - Planned and applied complex changes and proposed efficiency improvements.
 - employer: "TRUE"
   location: "Beek (MAA)"
   role: "Service Desk / System Administrator"
   start: "Aug 2017"
   end: "Jul 2018"
   details:
-    - Managed on-premise Microsoft environments.
+    - Managed on-premises Microsoft environments.
     - Maintained Debian and FreeBSD web hosting platforms.
     - Administered networking and firewalls (Juniper / pfSense / Fortinet).
 - employer: "MeanderGroep"
   location: "Landgraaf"
-  role: "System/Network Administrator"
+  role: "System / Network Administrator"
   start: "Jul 2015"
   end: "Aug 2017"
   details:

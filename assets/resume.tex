@@ -18,7 +18,7 @@
 % CONFIGURATIONS
 %-------------------------------------------------------------------------------
 % A4 paper size by default, use 'letterpaper' for US letter
-\documentclass[11pt, letterpaper]{awesome-cv}
+\documentclass[11pt, a4paper]{awesome-cv}
 
 % Configure page margins with geometry
 \geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
@@ -42,6 +42,9 @@
 
 % Set false if you don't want to highlight section with awesome color
 \setbool{acvSectionColorHighlight}{true}
+
+% Keep section headings together with their content (avoid orphaned headings)
+\usepackage{needspace}
 
 % If you would like to change the social information separator from a pipe (|) to something else
 \renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
@@ -88,12 +91,12 @@
 \cvsection{Work Experience}
 \begin{cventries}
 
-{{ range .Site.Data.experiences }}
+{{ range hugo.Data.experiences }}
   \cventry
     {{"{"}}{{ .role }}{{"}"}}
     {{"{"}}{{ .employer }}{{"}"}}
     {{"{"}}{{ .location }}{{"}"}}
-    {{"{"}}{{ .start }} - {{ .end }}{{"}"}}
+    {{"{"}}{{ .start }} -- {{ .end }}{{"}"}}
     {
       \begin{cvitems}{{ range .details }}
         \item{{"{"}}{{ . }}{{"}"}}{{ end }}
@@ -104,21 +107,24 @@
 
 \end{cventries}
 
+% The certification list is a single unbreakable table; move the heading along with it
+\needspace{12\baselineskip}
 \cvsection{Certifications}
 \begin{cvhonors}
-{{ range .Site.Data.certifications }}
+{{ range hugo.Data.certifications }}
   \cvhonor
     {{"{"}}{{ .name }}{{"}"}}
-    {{"{"}}Certification ID: {{ .id }}{{"}"}}
+    {{"{"}}Credential ID: {{ .id }}{{"}"}}
     {{"{"}}{{ .org }}{{"}"}}
     {{"{"}}{{ .date }}{{"}"}}
 {{ end }}
 
 \end{cvhonors}
 
+{{ with hugo.Data.projects }}
 \cvsection{Projects}
 \begin{cventries}
-{{ range .Site.Data.projects }}
+{{ range . }}
   \cventry
     {{"{"}}{{ .role }}{{"}"}}
     {{"{"}}{{ .name }}{{"}"}}
@@ -128,15 +134,16 @@
 {{ end }}
 
 \end{cventries}
+{{ end }}
 
 \cvsection{Education}
 \begin{cventries}
-{{ range .Site.Data.education }}
+{{ range hugo.Data.education }}
   \cventry
     {{"{"}}{{ .degree }}{{"}"}}
     {{"{"}}{{ .university }}{{"}"}}
     {{"{"}}{{ .location }}{{"}"}}
-    {{"{"}}{{ .start }} - {{ .end }}{{"}"}}
+    {{"{"}}{{ .start }} -- {{ .end }}{{"}"}}
     {
     }
 {{ end }}

@@ -1,32 +1,34 @@
+# IDs are quoted so YAML never parses them as numbers
+# (e.g. 5617689.20506583 would otherwise render as 5.61768920506583e+06).
 - name: ITIL Foundation Certificate in IT Service Management
-  id: 5617689.20506583
+  id: "5617689.20506583"
   date: Feb 2016
   org: EXIN
-- name: Cisco Certified Network Associate Routing and Switching
-  id: 427924169524DTDF
+- name: Cisco Certified Network Associate (CCNA) Routing and Switching
+  id: "427924169524DTDF"
   date: Feb 2017
   org: Cisco
-- name: Information Security Foundation based on ISO IEC 27001
-  id: 6269146
+- name: Information Security Foundation based on ISO/IEC 27001
+  id: "6269146"
   date: May 2019
   org: EXIN
-- name: MCSA Windows 10 Certified 2019
-  id: H070-9469
+- name: "MCSA: Windows 10"
+  id: "H070-9469"
   date: Nov 2019
   org: Microsoft
-- name: M365 Modern Desktop Administrator Associate
-  id: H357-2019
+- name: "Microsoft 365 Certified: Modern Desktop Administrator Associate"
+  id: "H357-2019"
   date: Feb 2020
   org: Microsoft
-- name: Azure Administrator Associate
-  id: 16560902
+- name: Microsoft Azure Administrator Associate
+  id: "16560902"
   date: Aug 2020
   org: Microsoft
 - name: Microsoft Azure Developer Associate
-  id: 16560902
+  id: "16560902"
   date: Oct 2021
   org: Microsoft
-- name: Certified Kubernetes Administrator
-  id: LF-pok4t37yw6
+- name: Certified Kubernetes Administrator (CKA)
+  id: "LF-pok4t37yw6"
   date: Jan 2023
   org: CNCF

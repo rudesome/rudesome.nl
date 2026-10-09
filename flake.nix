@@ -1,28 +1,40 @@
 {
-  description = "rudesome.nl website content";
+  description = "rudesome.nl website and résumé";
 
   inputs = {
-    nixpkgs.url = "github:NixOS/nixpkgs/nixos-24.05";
+    nixpkgs.url = "github:NixOS/nixpkgs/nixos-26.05";
   };
 
-  outputs = { self, nixpkgs }:
+  outputs = { nixpkgs, ... }:
     let
-      name = "rudesome.nl";
-      system = "x86_64-linux";
-      pkgs = import nixpkgs { system = "x86_64-linux"; };
+      systems = [ "x86_64-linux" "aarch64-linux" "x86_64-darwin" "aarch64-darwin" ];
+      forAllSystems = f: nixpkgs.lib.genAttrs systems (system: f nixpkgs.legacyPackages.${system});
     in
     {
-
-      devShells.${system}.default =
-        with pkgs;
-        mkShell
-          {
-            buildInputs = with pkgs; [
-              gnumake
-              texliveFull
-              hugo
-            ];
-          };
-
+      devShells = forAllSystems (pkgs: {
+        default = pkgs.mkShell {
+          packages = [
+            pkgs.gnumake
+            pkgs.hugo
+            # Minimal TeX Live with only what awesome-cv.cls needs
+            # (instead of the multi-GB texliveFull).
+            (pkgs.texliveSmall.withPackages (ps: with ps; [
+              enumitem
+              environ
+              fontawesome
+              ifmtarg
+              needspace
+              pdfcol
+              ragged2e
+              setspace
+              sourcesanspro
+              tcolorbox
+              tikzfill
+              unicode-math
+              xifthen
+            ]))
+          ];
+        };
+      });
     };
 }

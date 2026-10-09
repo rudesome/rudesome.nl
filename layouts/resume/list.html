@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -16,19 +16,16 @@
     <title>{{ .Site.Title }}</title>
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,700">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Jura:400,700">
 
 {{ $options := (dict "targetPath" "css/resume.css" "outputStyle" "compressed") }}
 {{ $style := resources.Get "sass/resume.scss" | toCSS $options | fingerprint }}
     <link rel="stylesheet" href="{{ $style.RelPermalink }}">
-    <!-- <link rel="stylesheet" href="{{ $style.RelPermalink }}" integrity="{{ $style.Data.Integrity }}"> -->
-
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/manifest.json">
+{{- /* Render assets/resume.tex with the site data and publish it as docs/resume.tex; the Makefile feeds it to xelatex to build the PDF. */}}
+{{- $latex := resources.Get "resume.tex" | resources.ExecuteAsTemplate "resume.tex" . }}
+{{- $latex.Publish }}
   </head>
   <body>
     <div class="wrap resume">
@@ -40,7 +37,12 @@
         <small class="location">{{ .Site.Params.profile.location }}</small>
         {{ with .Site.Params.contacts -}}
         <section class="contacts">
+          {{- $first := true -}}
           {{- range $service, $id := . -}}
+            {{- if not $first }}
+            &nbsp;|&nbsp;
+            {{- end -}}
+            {{- $first = false -}}
             {{- if (eq $service "github") }}
           <a href="https://github.com/{{ $id }}">
             <i class="fab fa-github" aria-hidden="true"></i> {{ $id }}
@@ -94,7 +96,6 @@
             <i class="fab fa-hackerrank" aria-hidden="true"></i> {{ $id }}
           </a>
             {{- end }}
-            &nbsp;|&nbsp;
           {{- end }}
         </section>
         {{- end }}
@@ -108,11 +109,6 @@
               <a href="/resume.pdf"><i class="fa fa-file-pdf"></i></a>
               <span class="message">Download PDF</span>
             </div>
-           <!-- <div class="tooltip">
-              {{ $latex := resources.Get "resume.tex" | resources.ExecuteAsTemplate "resume.tex" . }}
-              <a href="{{ $latex.RelPermalink }}"><i class="fa fa-code"></i></a>
-              <span class="message">Download LaTex</span>
-	   </div> -->
           </h2>
         </div>
         <hr><br/>
@@ -122,7 +118,7 @@
       <section class="experiences">
         <h2 class="header">Experience</h2><hr>
 
-        {{ range .Site.Data.experiences }}
+        {{ range hugo.Data.experiences }}
         <div class="experience">
           <div class="row">
             <div class="employer">{{ .employer }}</div>
@@ -130,7 +126,7 @@
           </div>
           <div class="row">
             <div class="role">{{ .role }}</div>
-            <div class="dates">{{ .start }} - {{ .end }}</div>
+            <div class="dates">{{ .start }} – {{ .end }}</div>
           </div>
           <div class="row">
             <ul>
@@ -144,15 +140,14 @@
       </section>
 
       <section class="certifications">
-        <h2 class="header">Certifications</h2><hr >
+        <h2 class="header">Certifications</h2><hr>
 
         <div class="certlist">
-          {{ range .Site.Data.certifications }}
+          {{ range hugo.Data.certifications }}
           <div class="row">
             <div class="date">{{ .date }}</div>
             <div class="description">
-              <strong>{{ .name }}</strong>
-              , Credential ID: {{ .id }}
+              <strong>{{ .name }}</strong>, Credential ID: {{ .id }}
             </div>
             <div class="org">{{ .org }}</div>
           </div>
@@ -160,10 +155,11 @@
         </div>
       </section>
 
+      {{ with hugo.Data.projects }}
       <section class="projects">
         <h2 class="header">Projects</h2><hr>
 
-        {{ range .Site.Data.projects }}
+        {{ range . }}
         <div class="experience">
           <div class="row">
             <div class="employer">{{ .name }}</div>
@@ -179,11 +175,12 @@
         </div>
         {{- end }}
       </section>
+      {{ end }}
 
       <section class="education">
         <h2 class="header">Education</h2><hr>
 
-        {{ range .Site.Data.education }}
+        {{ range hugo.Data.education }}
         <div class="experience">
           <div class="row">
             <div class="employer">{{ .university }}</div>
@@ -191,13 +188,12 @@
           </div>
           <div class="row">
             <div class="role">{{ .degree }}</div>
-            <div class="dates">{{ .start }} - {{ .end }}</div>
+            <div class="dates">{{ .start }} – {{ .end }}</div>
           </div>
         </div><br/>
         {{- end }}
       </section>
     </div>
 {{ partial "footer.html" . }}
-{{ partial "crisp.html" . }}
   </body>
 </html>
